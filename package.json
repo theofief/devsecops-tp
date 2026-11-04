@@ -1,0 +1,22 @@
+{
+  "name": "devsecops-tp",
+  "version": "1.0.0",
+  "description": "TP de clôture CI/CD et sécurité",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --runInBand",
+    "test:coverage": "jest --coverage --runInBand"
+  },
+  "dependencies": {
+    "express": "5.3.0",
+    "lodash": "4.18.1"
+  },
+  "devDependencies": {
+    "jest": "30.5.2",
+    "supertest": "7.3.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
